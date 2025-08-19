@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - TechInsight Blog</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html">TechInsight</a></h1>
+            </div>
+            <nav class="main-nav">
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="tags.html">Technology</a></li>
+                    <li><a href="tags.html">AI & ML</a></li>
+                    <li><a href="tags.html">Web Dev</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <form action="#" method="get">
+                    <input type="text" placeholder="Search articles..." aria-label="Search">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+            <div class="theme-toggle">
+                <button id="theme-toggle-btn" aria-label="Toggle dark/light mode">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+        <div class="container">
+            <ol>
+                <li><a href="index.html">Home</a></li>
+                <li aria-current="page">Page Not Found</li>
+            </ol>
+        </div>
+    </nav>
+
+    <main id="main-content" class="site-main">
+        <section class="error-404">
+            <div class="container">
+                <div class="error-content">
+                    <div class="error-code">404</div>
+                    <h1>Page Not Found</h1>
+                    <p>Oops! The page you're looking for doesn't exist or has been moved.</p>
+                    <div class="error-actions">
+                        <a href="index.html" class="btn btn-primary"><i class="fas fa-home"></i> Back to Home</a>
+                        <a href="contact.html" class="btn btn-secondary"><i class="fas fa-envelope"></i> Contact Us</a>
+                    </div>
+                    <div class="error-search">
+                        <p>Try searching for what you're looking for:</p>
+                        <form action="#" method="get">
+                            <input type="text" placeholder="Search..." aria-label="Search">
+                            <button type="submit" class="btn btn-primary">Search</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="error-illustration">
+                    <svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M300,392.8c-91.9,0-166.3-74.4-166.3-166.3S208.1,60.2,300,60.2s166.3,74.4,166.3,166.3S391.9,392.8,300,392.8z" fill="var(--background-alt)"/>
+                        <path d="M164.5,236.5c0-8.9,7.2-16.1,16.1-16.1h107.4v-107.4c0-8.9,7.2-16.1,16.1-16.1s16.1,7.2,16.1,16.1v107.4h107.4c8.9,0,16.1,7.2,16.1,16.1s-7.2,16.1-16.1,16.1h-107.4v107.4c0,8.9-7.2,16.1-16.1,16.1s-16.1-7.2-16.1-16.1v-107.4h-107.4C171.7,252.6,164.5,245.4,164.5,236.5z" fill="var(--primary-color)"/>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <section class="suggested-content">
+            <div class="container">
+                <h2>You might be interested in</h2>
+                <div class="posts-grid">
+                    <article class="post-card">
+                        <div class="post-thumbnail">
+                            <img src="https://via.placeholder.com/400x300" alt="Web Development Trends">
+                            <span class="category">Web Development</span>
+                        </div>
+                        <div class="post-content">
+                            <h3 class="post-title"><a href="#">Top Web Development Trends to Watch in 2023</a></h3>
+                            <div class="post-meta">
+                                <span class="post-date">June 10, 2023</span>
+                                <span class="post-author">by <a href="#">Michael Chen</a></span>
+                            </div>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                    
+                    <article class="post-card">
+                        <div class="post-thumbnail">
+                            <img src="https://via.placeholder.com/400x300" alt="Cybersecurity Essentials">
+                            <span class="category">Cybersecurity</span>
+                        </div>
+                        <div class="post-content">
+                            <h3 class="post-title"><a href="#">Essential Cybersecurity Practices for Remote Work</a></h3>
+                            <div class="post-meta">
+                                <span class="post-date">June 5, 2023</span>
+                                <span class="post-author">by <a href="#">Alex Rivera</a></span>
+                            </div>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>TechInsight</h2>
+                    <p>Stay ahead with the latest in technology</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Categories</h3>
+                        <ul>
+                            <li><a href="#">Technology</a></li>
+                            <li><a href="#">AI & ML</a></li>
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">Cybersecurity</a></li>
+                            <li><a href="#">Data Science</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">Tutorials</a></li>
+                            <li><a href="#">Guides</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                            <li><a href="#">Podcast</a></li>
+                            <li><a href="#">Community</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 TechInsight Blog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

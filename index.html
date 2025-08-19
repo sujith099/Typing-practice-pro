@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechInsight Blog</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to content</a>
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <h1>TechInsight</h1>
+            </div>
+            <nav class="main-nav">
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="tags.html">Technology</a></li>
+                    <li><a href="tags.html">AI & ML</a></li>
+                    <li><a href="tags.html">Web Dev</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <form action="#" method="get">
+                    <input type="text" placeholder="Search articles..." aria-label="Search">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+            <div class="theme-toggle">
+                <button id="theme-toggle-btn" aria-label="Toggle dark/light mode">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="breadcrumb">
+        <div class="container">
+            <ol>
+                <li><a href="index.html">Home</a></li>
+                <li aria-current="page">Latest Articles</li>
+            </ol>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Latest in Tech</h2>
+                <p>Stay updated with the newest trends and breakthroughs in technology</p>
+                <a href="#" class="btn btn-primary">Explore Articles</a>
+            </div>
+        </div>
+    </section>
+
+    <main id="main-content" class="site-main">
+        <div class="container">
+            <div class="content-wrapper">
+                <section class="featured-posts">
+                    <h2 class="section-title">Featured Articles</h2>
+                    <div class="posts-grid">
+                        <article class="post-card featured">
+                            <div class="post-thumbnail">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400' viewBox='0 0 600 400'%3E%3Crect width='600' height='400' fill='%23667eea'/%3E%3Cg transform='translate(300,200)'%3E%3Ccircle cx='0' cy='0' r='80' fill='%23764ba2' opacity='0.8'/%3E%3Cpath d='M-40,-40 L40,-40 L40,40 L-40,40 Z' fill='%23f093fb' opacity='0.6'/%3E%3Ccircle cx='-30' cy='-30' r='15' fill='%23ffffff'/%3E%3Ccircle cx='30' cy='-30' r='15' fill='%23ffffff'/%3E%3Cpath d='M-20,10 Q0,30 20,10' stroke='%23ffffff' stroke-width='3' fill='none'/%3E%3C/g%3E%3Ctext x='300' y='350' text-anchor='middle' fill='%23ffffff' font-family='Arial, sans-serif' font-size='24' font-weight='bold'%3EAI Revolution%3C/text%3E%3C/svg%3E" alt="AI Revolution">
+                                <span class="category">Artificial Intelligence</span>
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title"><a href="#">The AI Revolution: How Machine Learning is Transforming Industries</a></h3>
+                                <div class="post-meta">
+                                    <span class="post-date">June 15, 2023</span>
+                                    <span class="post-author">by <a href="#">Sarah Johnson</a></span>
+                                </div>
+                                <p class="post-excerpt">Explore how artificial intelligence and machine learning technologies are revolutionizing various sectors from healthcare to finance.</p>
+                                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+                        
+                        <article class="post-card">
+                            <div class="post-thumbnail">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%2311998e'/%3E%3Cg transform='translate(200,150)'%3E%3Crect x='-80' y='-60' width='160' height='120' rx='8' fill='%23ffffff' opacity='0.9'/%3E%3Crect x='-70' y='-50' width='140' height='8' fill='%2306b6d4'/%3E%3Crect x='-70' y='-35' width='100' height='4' fill='%23e5e7eb'/%3E%3Crect x='-70' y='-25' width='120' height='4' fill='%23e5e7eb'/%3E%3Crect x='-70' y='-15' width='80' height='4' fill='%23e5e7eb'/%3E%3Cpath d='M-60,10 L-40,30 L-20,20 L0,35 L20,25 L40,40 L60,30' stroke='%2306b6d4' stroke-width='3' fill='none'/%3E%3C/g%3E%3Ctext x='200' y='280' text-anchor='middle' fill='%23ffffff' font-family='Arial, sans-serif' font-size='18' font-weight='bold'%3EWeb Development%3C/text%3E%3C/svg%3E" alt="Web Development Trends">
+                                <span class="category">Web Development</span>
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title"><a href="#">Top Web Development Trends to Watch in 2023</a></h3>
+                                <div class="post-meta">
+                                    <span class="post-date">June 10, 2023</span>
+                                    <span class="post-author">by <a href="#">Michael Chen</a></span>
+                                </div>
+                                <p class="post-excerpt">Discover the latest web development technologies and methodologies that are shaping the digital landscape this year.</p>
+                                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+                        
+                        <article class="post-card">
+                            <div class="post-thumbnail">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23dc2626'/%3E%3Cg transform='translate(200,150)'%3E%3Cpath d='M-40,-60 L-40,-20 Q-40,-10 -30,-10 L30,-10 Q40,-10 40,-20 L40,-60 Q40,-70 30,-70 L-30,-70 Q-40,-70 -40,-60 Z' fill='%23fbbf24'/%3E%3Ccircle cx='0' cy='-35' r='15' fill='%23dc2626'/%3E%3Crect x='-5' y='-25' width='10' height='20' fill='%23dc2626'/%3E%3Cpath d='M-60,20 L-60,60 Q-60,70 -50,70 L50,70 Q60,70 60,60 L60,20 Q60,10 50,10 L-50,10 Q-60,10 -60,20 Z' fill='%23374151'/%3E%3Ccircle cx='0' cy='40' r='8' fill='%23fbbf24'/%3E%3C/g%3E%3Ctext x='200' y='280' text-anchor='middle' fill='%23ffffff' font-family='Arial, sans-serif' font-size='18' font-weight='bold'%3ECybersecurity%3C/text%3E%3C/svg%3E" alt="Cybersecurity Essentials">
+                                <span class="category">Cybersecurity</span>
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title"><a href="#">Essential Cybersecurity Practices for Remote Work</a></h3>
+                                <div class="post-meta">
+                                    <span class="post-date">June 5, 2023</span>
+                                    <span class="post-author">by <a href="#">Alex Rivera</a></span>
+                                </div>
+                                <p class="post-excerpt">Learn about the critical security measures that individuals and organizations should implement in a remote work environment.</p>
+                                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="categorized-posts">
+                    <h2 class="section-title">Articles by Category</h2>
+                    
+                    <!-- AI & Machine Learning Category -->
+                    <div class="category-section">
+                        <h3 class="category-title">AI & Machine Learning</h3>
+                        <div class="posts-list">
+                        <article class="post-item">
+                            <div class="post-thumbnail">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 300 200'%3E%3Crect width='300' height='200' fill='%23581c87'/%3E%3Cg transform='translate(150,100)'%3E%3Ccircle cx='0' cy='0' r='40' fill='none' stroke='%23a855f7' stroke-width='2'/%3E%3Ccircle cx='0' cy='0' r='25' fill='none' stroke='%23c084fc' stroke-width='2'/%3E%3Ccircle cx='0' cy='0' r='10' fill='%23ffffff'/%3E%3Cpath d='M-60,-20 L-40,-20 M-40,-30 L-40,-10 M40,-20 L60,-20 M40,-30 L40,-10' stroke='%23a855f7' stroke-width='2'/%3E%3C/g%3E%3Ctext x='150' y='180' text-anchor='middle' fill='%23ffffff' font-family='Arial, sans-serif' font-size='14' font-weight='bold'%3EQuantum Computing%3C/text%3E%3C/svg%3E" alt="Quantum Computing">
+                            </div>
+                            <div class="post-content">
+                                <span class="category">Quantum Computing</span>
+                                <h3 class="post-title"><a href="article.html">Quantum Computing: Current State and Future Prospects</a></h3>
+                                <div class="post-meta">
+                                    <span class="post-date">May 12, 2023</span>
+                                    <span class="post-author">by <a href="#">Dr. Alan Thompson</a></span>
+                                </div>
+                                <p class="post-excerpt">An overview of recent advancements in quantum computing and their potential impact on cryptography and complex problem-solving.</p>
+                            </div>
+                        </article>
+                        
+                        <article class="post-item">
+                            <div class="post-thumbnail">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 300 200'%3E%3Crect width='300' height='200' fill='%23667eea'/%3E%3Cg transform='translate(150,100)'%3E%3Ccircle cx='0' cy='0' r='30' fill='%23764ba2' opacity='0.8'/%3E%3Crect x='-15' y='-15' width='30' height='30' fill='%23f093fb' opacity='0.6'/%3E%3Ccircle cx='-10' cy='-10' r='5' fill='%23ffffff'/%3E%3Ccircle cx='10' cy='-10' r='5' fill='%23ffffff'/%3E%3Cpath d='M-8,5 Q0,15 8,5' stroke='%23ffffff' stroke-width='2' fill='none'/%3E%3C/g%3E%3Ctext x='150' y='180' text-anchor='middle' fill='%23ffffff' font-family='Arial, sans-serif' font-size='14' font-weight='bold'%3EAI Revolution%3C/text%3E%3C/svg%3E" alt="AI Revolution">
+                            </div>
+                            <div class="post-content">
+                                <span class="category">Artificial Intelligence</span>
+                                <h3 class="post-title"><a href="article.html">The AI Revolution: How Machine Learning is Transforming Industries</a></h3>
+                                <div class="post-meta">
+                                    <span class="post-date">June 15, 2023</span>
+                                    <span class="post-author">by <a href="#">Sarah Johnson</a></span>
+                                </div>
+                                <p class="post-excerpt">Explore how artificial intelligence and machine learning technologies are revolutionizing various sectors from healthcare to finance.</p>
+                            </div>
+                        </article>
+                        </div>
+                    </div>
+                    
+                    <!-- Web Development Category -->
+                    <div class="category-section">
+                        <h3 class="category-title">Web Development</h3>
+                        <div class="posts-list">
+                        <article class="post-item">
+                            <div class="post-thumbnail">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 300 200'%3E%3Crect width='300' height='200' fill='%2311998e'/%3E%3Cg transform='translate(150,100)'%3E%3Crect x='-50' y='-30' width='100' height='60' rx='5' fill='%23ffffff' opacity='0.9'/%3E%3Crect x='-45' y='-25' width='90' height='5' fill='%2306b6d4'/%3E%3Crect x='-45' y='-15' width='60' height='3' fill='%23e5e7eb'/%3E%3Crect x='-45' y='-8' width='75' height='3' fill='%23e5e7eb'/%3E%3Crect x='-45' y='-1' width='50' height='3' fill='%23e5e7eb'/%3E%3C/g%3E%3Ctext x='150' y='180' text-anchor='middle' fill='%23ffffff' font-family='Arial, sans-serif' font-size='14' font-weight='bold'%3EWeb Development%3C/text%3E%3C/svg%3E" alt="Web Development Trends">
+                            </div>
+                            <div class="post-content">
+                                <span class="category">Web Development</span>
+                                <h3 class="post-title"><a href="article.html">Top Web Development Trends to Watch in 2023</a></h3>
+                                <div class="post-meta">
+                                    <span class="post-date">June 10, 2023</span>
+                                    <span class="post-author">by <a href="#">Michael Chen</a></span>
+                                </div>
+                                <p class="post-excerpt">Discover the latest web development technologies and methodologies that are shaping the digital landscape this year.</p>
+                            </div>
+                        </article>
+                        
+                        <article class="post-item">
+                            <div class="post-thumbnail">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 300 200'%3E%3Crect width='300' height='200' fill='%23f59e0b'/%3E%3Cg transform='translate(150,100)'%3E%3Crect x='-40' y='-25' width='80' height='50' rx='8' fill='%23ffffff'/%3E%3Ccircle cx='-20' cy='-10' r='8' fill='%23f59e0b'/%3E%3Crect x='-5' y='-15' width='30' height='4' fill='%23e5e7eb'/%3E%3Crect x='-5' y='-8' width='25' height='4' fill='%23e5e7eb'/%3E%3Crect x='-5' y='-1' width='20' height='4' fill='%23e5e7eb'/%3E%3Crect x='-30' y='8' width='15' height='8' fill='%23f59e0b'/%3E%3Crect x='-10' y='8' width='15' height='8' fill='%23e5e7eb'/%3E%3Crect x='10' y='8' width='15' height='8' fill='%23e5e7eb'/%3E%3C/g%3E%3Ctext x='150' y='180' text-anchor='middle' fill='%23ffffff' font-family='Arial, sans-serif' font-size='14' font-weight='bold'%3EUX Design%3C/text%3E%3C/svg%3E" alt="UX Design">
+                            </div>
+                            <div class="post-content">
+                                <span class="category">UX Design</span>
+                                <h3 class="post-title"><a href="article.html">User Experience Design Principles for Mobile Applications</a></h3>
+                                <div class="post-meta">
+                                    <span class="post-date">May 20, 2023</span>
+                                    <span class="post-author">by <a href="#">Sophia Martinez</a></span>
+                                </div>
+                                <p class="post-excerpt">Key principles and best practices for creating intuitive, engaging, and accessible mobile app experiences.</p>
+                            </div>
+                        </article>
+                        </div>
+                    </div>
+                    
+                    <!-- Cybersecurity Category -->
+                    <div class="category-section">
+                        <h3 class="category-title">Cybersecurity</h3>
+                        <div class="posts-list">
+                        <article class="post-item">
+                            <div class="post-thumbnail">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 300 200'%3E%3Crect width='300' height='200' fill='%23dc2626'/%3E%3Cg transform='translate(150,100)'%3E%3Cpath d='M-25,-35 L-25,-15 Q-25,-10 -20,-10 L20,-10 Q25,-10 25,-15 L25,-35 Q25,-40 20,-40 L-20,-40 Q-25,-40 -25,-35 Z' fill='%23fbbf24'/%3E%3Ccircle cx='0' cy='-25' r='8' fill='%23dc2626'/%3E%3Crect x='-3' y='-20' width='6' height='12' fill='%23dc2626'/%3E%3Cpath d='M-35,10 L-35,35 Q-35,40 -30,40 L30,40 Q35,40 35,35 L35,10 Q35,5 30,5 L-30,5 Q-35,5 -35,10 Z' fill='%23374151'/%3E%3Ccircle cx='0' cy='22' r='5' fill='%23fbbf24'/%3E%3C/g%3E%3Ctext x='150' y='180' text-anchor='middle' fill='%23ffffff' font-family='Arial, sans-serif' font-size='14' font-weight='bold'%3ECybersecurity%3C/text%3E%3C/svg%3E" alt="Cybersecurity Essentials">
+                            </div>
+                            <div class="post-content">
+                                <span class="category">Cybersecurity</span>
+                                <h3 class="post-title"><a href="article.html">Essential Cybersecurity Practices for Remote Work</a></h3>
+                                <div class="post-meta">
+                                    <span class="post-date">June 5, 2023</span>
+                                    <span class="post-author">by <a href="#">Alex Rivera</a></span>
+                                </div>
+                                <p class="post-excerpt">Learn about the critical security measures that individuals and organizations should implement in a remote work environment.</p>
+                            </div>
+                        </article>
+                        
+                        <article class="post-item">
+                            <div class="post-thumbnail">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 300 200'%3E%3Crect width='300' height='200' fill='%236366f1'/%3E%3Cg transform='translate(150,100)'%3E%3Crect x='-40' y='-30' width='80' height='60' rx='5' fill='%23ffffff'/%3E%3Crect x='-35' y='-25' width='70' height='5' fill='%236366f1'/%3E%3Crect x='-35' y='-15' width='50' height='3' fill='%23e5e7eb'/%3E%3Crect x='-35' y='-8' width='60' height='3' fill='%23e5e7eb'/%3E%3Crect x='-35' y='-1' width='40' height='3' fill='%23e5e7eb'/%3E%3Cpath d='M-20,10 L-20,20 Q-20,25 -15,25 L15,25 Q20,25 20,20 L20,10 Q20,5 15,5 L-15,5 Q-20,5 -20,10 Z' fill='%236366f1'/%3E%3Ccircle cx='0' cy='15' r='3' fill='%23ffffff'/%3E%3C/g%3E%3Ctext x='150' y='180' text-anchor='middle' fill='%23ffffff' font-family='Arial, sans-serif' font-size='14' font-weight='bold'%3EData Privacy%3C/text%3E%3C/svg%3E" alt="Data Privacy">
+                            </div>
+                            <div class="post-content">
+                                <span class="category">Data Privacy</span>
+                                <h3 class="post-title"><a href="article.html">Data Privacy Regulations: What Tech Companies Need to Know</a></h3>
+                                <div class="post-meta">
+                                    <span class="post-date">May 15, 2023</span>
+                                    <span class="post-author">by <a href="#">Lisa Johnson</a></span>
+                                </div>
+                                <p class="post-excerpt">A guide to navigating the complex landscape of international data privacy regulations and compliance requirements.</p>
+                            </div>
+                        </article>
+                        </div>
+                    </div>
+                    
+                    <!-- Cloud & Infrastructure Category -->
+                    <div class="category-section">
+                        <h3 class="category-title">Cloud & Infrastructure</h3>
+                        <div class="posts-list">
+                        <article class="post-item">
+                            <div class="post-thumbnail">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 300 200'%3E%3Crect width='300' height='200' fill='%2306b6d4'/%3E%3Cg transform='translate(150,100)'%3E%3Cpath d='M-40,-10 Q-50,-20 -35,-25 Q-30,-35 -15,-30 Q0,-40 15,-30 Q30,-35 35,-25 Q50,-20 40,-10 Q45,0 35,5 L-35,5 Q-45,0 -40,-10 Z' fill='%23ffffff'/%3E%3Cpath d='M-25,15 Q-35,5 -20,0 Q-15,-10 0,-5 Q15,-10 20,0 Q35,5 25,15 Q30,25 20,30 L-20,30 Q-30,25 -25,15 Z' fill='%23ffffff' opacity='0.8'/%3E%3C/g%3E%3Ctext x='150' y='180' text-anchor='middle' fill='%23ffffff' font-family='Arial, sans-serif' font-size='14' font-weight='bold'%3ECloud Computing%3C/text%3E%3C/svg%3E" alt="Cloud Computing">
+                            </div>
+                            <div class="post-content">
+                                <span class="category">Cloud Computing</span>
+                                <h3 class="post-title"><a href="article.html">Cloud Migration Strategies for Enterprise Applications</a></h3>
+                                <div class="post-meta">
+                                    <span class="post-date">May 28, 2023</span>
+                                    <span class="post-author">by <a href="#">Emily Zhang</a></span>
+                                </div>
+                                <p class="post-excerpt">A comprehensive guide to planning and executing successful cloud migrations for large-scale enterprise systems.</p>
+                            </div>
+                        </article>
+                        
+                        <article class="post-item">
+                            <div class="post-thumbnail">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 300 200'%3E%3Crect width='300' height='200' fill='%23059669'/%3E%3Cg transform='translate(150,100)'%3E%3Crect x='-5' y='-40' width='10' height='80' fill='%23ffffff'/%3E%3Cpath d='M-30,-20 Q-20,-30 -10,-20 M10,-20 Q20,-30 30,-20' stroke='%23ffffff' stroke-width='3' fill='none'/%3E%3Cpath d='M-40,-10 Q-25,-25 -10,-10 M10,-10 Q25,-25 40,-10' stroke='%23ffffff' stroke-width='2' fill='none'/%3E%3Cpath d='M-50,0 Q-30,-20 -10,0 M10,0 Q30,-20 50,0' stroke='%23ffffff' stroke-width='2' fill='none'/%3E%3Ccircle cx='0' cy='-30' r='8' fill='%23fbbf24'/%3E%3C/g%3E%3Ctext x='150' y='180' text-anchor='middle' fill='%23ffffff' font-family='Arial, sans-serif' font-size='14' font-weight='bold'%3E5G Technology%3C/text%3E%3C/svg%3E" alt="5G Technology">
+                            </div>
+                            <div class="post-content">
+                                <span class="category">Telecommunications</span>
+                                <h3 class="post-title"><a href="article.html">The Impact of 5G Technology on Smart Cities</a></h3>
+                                <div class="post-meta">
+                                    <span class="post-date">June 1, 2023</span>
+                                    <span class="post-author">by <a href="#">David Wilson</a></span>
+                                </div>
+                                <p class="post-excerpt">Examining how 5G networks are enabling the development of smart city infrastructure and services.</p>
+                            </div>
+                        </article>
+                        </div>
+                    </div>
+                    
+                    <!-- Emerging Technologies Category -->
+                    <div class="category-section">
+                        <h3 class="category-title">Emerging Technologies</h3>
+                        <div class="posts-list">
+                        <article class="post-item">
+                            <div class="post-thumbnail">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 300 200'%3E%3Crect width='300' height='200' fill='%23f59e0b'/%3E%3Cg transform='translate(150,100)'%3E%3Crect x='-60' y='-15' width='30' height='30' rx='3' fill='%23ffffff'/%3E%3Crect x='-15' y='-15' width='30' height='30' rx='3' fill='%23ffffff'/%3E%3Crect x='30' y='-15' width='30' height='30' rx='3' fill='%23ffffff'/%3E%3Cpath d='M-30,0 L-15,0 M15,0 L30,0' stroke='%23f59e0b' stroke-width='4'/%3E%3Crect x='-55' y='-10' width='20' height='4' fill='%23f59e0b'/%3E%3Crect x='-55' y='-3' width='15' height='4' fill='%23f59e0b'/%3E%3Crect x='-55' y='4' width='18' height='4' fill='%23f59e0b'/%3E%3Crect x='-10' y='-10' width='20' height='4' fill='%23f59e0b'/%3E%3Crect x='-10' y='-3' width='15' height='4' fill='%23f59e0b'/%3E%3Crect x='-10' y='4' width='18' height='4' fill='%23f59e0b'/%3E%3Crect x='35' y='-10' width='20' height='4' fill='%23f59e0b'/%3E%3Crect x='35' y='-3' width='15' height='4' fill='%23f59e0b'/%3E%3Crect x='35' y='4' width='18' height='4' fill='%23f59e0b'/%3E%3C/g%3E%3Ctext x='150' y='180' text-anchor='middle' fill='%23ffffff' font-family='Arial, sans-serif' font-size='14' font-weight='bold'%3EBlockchain%3C/text%3E%3C/svg%3E" alt="Blockchain Technology">
+                            </div>
+                            <div class="post-content">
+                                <span class="category">Blockchain</span>
+                                <h3 class="post-title"><a href="article.html">Beyond Cryptocurrency: Practical Applications of Blockchain</a></h3>
+                                <div class="post-meta">
+                                    <span class="post-date">May 25, 2023</span>
+                                    <span class="post-author">by <a href="#">Robert Kim</a></span>
+                                </div>
+                                <p class="post-excerpt">Exploring innovative uses of blockchain technology in supply chain, healthcare, voting systems, and more.</p>
+                            </div>
+                        </article>
+                        
+                        <article class="post-item">
+                            <div class="post-thumbnail">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 300 200'%3E%3Crect width='300' height='200' fill='%23a855f7'/%3E%3Cg transform='translate(150,100)'%3E%3Crect x='-50' y='-20' width='100' height='40' rx='20' fill='%23ffffff'/%3E%3Crect x='-40' y='-15' width='30' height='30' rx='5' fill='%23a855f7'/%3E%3Crect x='10' y='-15' width='30' height='30' rx='5' fill='%23a855f7'/%3E%3Crect x='-45' y='25' width='90' height='8' rx='4' fill='%23ffffff'/%3E%3Ccircle cx='-25' cy='-5' r='8' fill='%23ffffff'/%3E%3Ccircle cx='25' cy='-5' r='8' fill='%23ffffff'/%3E%3Cpath d='M-60,-5 Q-50,-15 -40,-5 M40,-5 Q50,-15 60,-5' stroke='%23ffffff' stroke-width='3' fill='none'/%3E%3C/g%3E%3Ctext x='150' y='180' text-anchor='middle' fill='%23ffffff' font-family='Arial, sans-serif' font-size='14' font-weight='bold'%3EAR/VR Technology%3C/text%3E%3C/svg%3E" alt="AR VR Technology">
+                            </div>
+                            <div class="post-content">
+                                <span class="category">AR/VR</span>
+                                <h3 class="post-title"><a href="article.html">The Evolution of AR and VR in Enterprise Training</a></h3>
+                                <div class="post-meta">
+                                    <span class="post-date">May 10, 2023</span>
+                                    <span class="post-author">by <a href="#">Nina Rodriguez</a></span>
+                                </div>
+                                <p class="post-excerpt">How augmented and virtual reality technologies are transforming corporate training and skills development programs.</p>
+                            </div>
+                        </article>
+                        
+                        <article class="post-item">
+                            <div class="post-thumbnail">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 300 200'%3E%3Crect width='300' height='200' fill='%23374151'/%3E%3Cg transform='translate(150,100)'%3E%3Ccircle cx='0' cy='0' r='40' fill='none' stroke='%2310b981' stroke-width='3'/%3E%3Cpath d='M-28,-28 L28,28 M28,-28 L-28,28' stroke='%2310b981' stroke-width='3'/%3E%3Ccircle cx='-20' cy='-20' r='8' fill='%2310b981'/%3E%3Ccircle cx='20' cy='-20' r='8' fill='%2310b981'/%3E%3Ccircle cx='-20' cy='20' r='8' fill='%2310b981'/%3E%3Ccircle cx='20' cy='20' r='8' fill='%2310b981'/%3E%3Cpath d='M-50,0 Q-40,-10 -30,0 Q-40,10 -50,0 M50,0 Q40,-10 30,0 Q40,10 50,0' fill='%2310b981'/%3E%3C/g%3E%3Ctext x='150' y='180' text-anchor='middle' fill='%23ffffff' font-family='Arial, sans-serif' font-size='14' font-weight='bold'%3EDevOps%3C/text%3E%3C/svg%3E" alt="DevOps Practices">
+                            </div>
+                            <div class="post-content">
+                                <span class="category">DevOps</span>
+                                <h3 class="post-title"><a href="article.html">Implementing CI/CD Pipelines for Faster Software Delivery</a></h3>
+                                <div class="post-meta">
+                                    <span class="post-date">May 18, 2023</span>
+                                    <span class="post-author">by <a href="#">James Peterson</a></span>
+                                </div>
+                                <p class="post-excerpt">How continuous integration and continuous deployment pipelines can streamline your software development process.</p>
+                            </div>
+                        </article>
+                        </div>
+                    </div>
+                    
+                    <div class="category-navigation">
+                        <h3>Browse by Category</h3>
+                        <div class="category-buttons">
+                            <a href="#" class="category-btn">AI & Machine Learning</a>
+                            <a href="#" class="category-btn">Web Development</a>
+                            <a href="#" class="category-btn">Cybersecurity</a>
+                            <a href="#" class="category-btn">Cloud & Infrastructure</a>
+                            <a href="#" class="category-btn">Emerging Technologies</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <aside class="sidebar">
+                <div class="widget categories">
+                    <h3 class="widget-title">Categories</h3>
+                    <ul>
+                        <li><a href="#">Artificial Intelligence <span>(12)</span></a></li>
+                        <li><a href="#">Web Development <span>(9)</span></a></li>
+                        <li><a href="#">Cybersecurity <span>(8)</span></a></li>
+                        <li><a href="#">Cloud Computing <span>(7)</span></a></li>
+                        <li><a href="#">Mobile Technology <span>(6)</span></a></li>
+                        <li><a href="#">Data Science <span>(5)</span></a></li>
+                    </ul>
+                </div>
+
+                <div class="widget popular-posts">
+                    <h3 class="widget-title">Popular Posts</h3>
+                    <ul>
+                        <li>
+                            <div class="post-thumbnail">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23581c87'/%3E%3Cg transform='translate(50,50)'%3E%3Ccircle cx='0' cy='0' r='20' fill='none' stroke='%23a855f7' stroke-width='2'/%3E%3Ccircle cx='0' cy='0' r='12' fill='none' stroke='%23c084fc' stroke-width='1'/%3E%3Ccircle cx='0' cy='0' r='5' fill='%23ffffff'/%3E%3C/g%3E%3C/svg%3E" alt="Popular Post 1">
+                            </div>
+                            <div class="post-info">
+                                <h4><a href="#">The Future of Quantum Computing</a></h4>
+                                <span class="post-date">May 15, 2023</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="post-thumbnail">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23dc2626'/%3E%3Cg transform='translate(50,50)'%3E%3Cpath d='M-15,-20 L-15,-10 Q-15,-8 -13,-8 L13,-8 Q15,-8 15,-10 L15,-20 Q15,-22 13,-22 L-13,-22 Q-15,-22 -15,-20 Z' fill='%23fbbf24'/%3E%3Ccircle cx='0' cy='-15' r='4' fill='%23dc2626'/%3E%3Crect x='-2' y='-12' width='4' height='8' fill='%23dc2626'/%3E%3Cpath d='M-20,5 L-20,18 Q-20,20 -18,20 L18,20 Q20,20 20,18 L20,5 Q20,3 18,3 L-18,3 Q-20,3 -20,5 Z' fill='%23374151'/%3E%3Ccircle cx='0' cy='11' r='3' fill='%23fbbf24'/%3E%3C/g%3E%3C/svg%3E" alt="Popular Post 2">
+                            </div>
+                            <div class="post-info">
+                                <h4><a href="#">How to Secure Your API Endpoints</a></h4>
+                                <span class="post-date">May 10, 2023</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="post-thumbnail">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%2311998e'/%3E%3Cg transform='translate(50,50)'%3E%3Crect x='-25' y='-15' width='50' height='30' rx='3' fill='%23ffffff' opacity='0.9'/%3E%3Crect x='-22' y='-12' width='44' height='3' fill='%2306b6d4'/%3E%3Crect x='-22' y='-7' width='30' height='2' fill='%23e5e7eb'/%3E%3Crect x='-22' y='-3' width='35' height='2' fill='%23e5e7eb'/%3E%3Crect x='-22' y='1' width='25' height='2' fill='%23e5e7eb'/%3E%3Crect x='-22' y='5' width='30' height='2' fill='%23e5e7eb'/%3E%3Crect x='-22' y='9' width='20' height='2' fill='%23e5e7eb'/%3E%3C/g%3E%3C/svg%3E" alt="Popular Post 3">
+                            </div>
+                            <div class="post-info">
+                                <h4><a href="#">Introduction to WebAssembly</a></h4>
+                                <span class="post-date">May 5, 2023</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="widget newsletter">
+                    <h3 class="widget-title">Subscribe to Newsletter</h3>
+                    <p>Get the latest tech news and articles delivered straight to your inbox.</p>
+                    <form action="#" method="post">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+
+                <div class="widget tags">
+                    <h3 class="widget-title">Popular Tags</h3>
+                    <div class="tag-cloud">
+                        <a href="#">AI</a>
+                        <a href="#">Machine Learning</a>
+                        <a href="#">JavaScript</a>
+                        <a href="#">React</a>
+                        <a href="#">Python</a>
+                        <a href="#">Cloud</a>
+                        <a href="#">Security</a>
+                        <a href="#">DevOps</a>
+                        <a href="#">UX</a>
+                        <a href="#">Mobile</a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated with TechInsight</h2>
+                <p>Subscribe to our newsletter for weekly tech updates, tutorials, and expert insights.</p>
+                <form action="#" method="post" class="newsletter-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email Address" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Subscribe Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>TechInsight</h2>
+                    <p>Your source for the latest technology news, insights, and trends.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Write for Us</a></li>
+                            <li><a href="#">Advertise</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h3>Categories</h3>
+                        <ul>
+                            <li><a href="#">Artificial Intelligence</a></li>
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">Cybersecurity</a></li>
+                            <li><a href="#">Cloud Computing</a></li>
+                            <li><a href="#">Mobile Technology</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">Tutorials</a></li>
+                            <li><a href="#">Guides</a></li>
+                            <li><a href="#">Whitepapers</a></li>
+                            <li><a href="#">Podcasts</a></li>
+                            <li><a href="#">Webinars</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 TechInsight Blog. All Rights Reserved.</p>
+                <ul class="footer-bottom-links">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+    <script src="js/features.js"></script>
+</body>
+</html>

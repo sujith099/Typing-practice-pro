@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Archive - TechInsight Blog</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html">TechInsight</a></h1>
+            </div>
+            <nav class="main-nav">
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="tags.html">Technology</a></li>
+                    <li><a href="tags.html">AI & ML</a></li>
+                    <li><a href="tags.html">Web Dev</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <form action="#" method="get">
+                    <input type="text" placeholder="Search articles..." aria-label="Search">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+            <div class="theme-toggle">
+                <button id="theme-toggle-btn" aria-label="Toggle dark/light mode">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+        <div class="container">
+            <ol>
+                <li><a href="index.html">Home</a></li>
+                <li aria-current="page">Newsletter Archive</li>
+            </ol>
+        </div>
+    </nav>
+
+    <main id="main-content" class="site-main">
+        <section class="page-header">
+            <div class="container">
+                <h1>Newsletter Archive</h1>
+                <p>Browse our past newsletters and subscribe to receive future updates</p>
+            </div>
+        </section>
+
+        <section class="newsletter-archive">
+            <div class="container">
+                <div class="newsletter-subscribe">
+                    <div class="subscribe-card">
+                        <h2>Subscribe to Our Newsletter</h2>
+                        <p>Get the latest tech insights, tutorials, and industry news delivered straight to your inbox.</p>
+                        <form action="#" method="post" class="subscribe-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Interests (select all that apply)</label>
+                                <div class="checkbox-group">
+                                    <label><input type="checkbox" name="interests[]" value="ai"> Artificial Intelligence</label>
+                                    <label><input type="checkbox" name="interests[]" value="webdev"> Web Development</label>
+                                    <label><input type="checkbox" name="interests[]" value="cybersecurity"> Cybersecurity</label>
+                                    <label><input type="checkbox" name="interests[]" value="data"> Data Science</label>
+                                    <label><input type="checkbox" name="interests[]" value="mobile"> Mobile Development</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="frequency">Frequency</label>
+                                <select id="frequency" name="frequency">
+                                    <option value="weekly">Weekly</option>
+                                    <option value="biweekly">Bi-weekly</option>
+                                    <option value="monthly">Monthly</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="newsletter-filter">
+                    <div class="filter-options">
+                        <div class="filter-group">
+                            <label for="year-filter">Year</label>
+                            <select id="year-filter">
+                                <option value="all">All Years</option>
+                                <option value="2023">2023</option>
+                                <option value="2022">2022</option>
+                                <option value="2021">2021</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label for="topic-filter">Topic</label>
+                            <select id="topic-filter">
+                                <option value="all">All Topics</option>
+                                <option value="ai">Artificial Intelligence</option>
+                                <option value="webdev">Web Development</option>
+                                <option value="cybersecurity">Cybersecurity</option>
+                                <option value="data">Data Science</option>
+                            </select>
+                        </div>
+                        <button class="btn btn-secondary">Apply Filters</button>
+                    </div>
+                </div>
+
+                <div class="newsletter-list">
+                    <article class="newsletter-item">
+                        <div class="newsletter-date">
+                            <span class="month">JUN</span>
+                            <span class="day">15</span>
+                            <span class="year">2023</span>
+                        </div>
+                        <div class="newsletter-content">
+                            <h3><a href="#">The Rise of AI in Software Development</a></h3>
+                            <div class="newsletter-meta">
+                                <span class="topic">Artificial Intelligence</span>
+                                <span class="issue">Issue #42</span>
+                            </div>
+                            <p>Exploring how AI is transforming the software development lifecycle, from code generation to testing and deployment.</p>
+                            <a href="#" class="btn btn-outline">Read Newsletter</a>
+                        </div>
+                    </article>
+
+                    <article class="newsletter-item">
+                        <div class="newsletter-date">
+                            <span class="month">JUN</span>
+                            <span class="day">01</span>
+                            <span class="year">2023</span>
+                        </div>
+                        <div class="newsletter-content">
+                            <h3><a href="#">Web Performance Optimization Techniques</a></h3>
+                            <div class="newsletter-meta">
+                                <span class="topic">Web Development</span>
+                                <span class="issue">Issue #41</span>
+                            </div>
+                            <p>Practical strategies to improve your website's loading speed, responsiveness, and overall performance.</p>
+                            <a href="#" class="btn btn-outline">Read Newsletter</a>
+                        </div>
+                    </article>
+
+                    <article class="newsletter-item">
+                        <div class="newsletter-date">
+                            <span class="month">MAY</span>
+                            <span class="day">15</span>
+                            <span class="year">2023</span>
+                        </div>
+                        <div class="newsletter-content">
+                            <h3><a href="#">Cybersecurity Threats in 2023: What You Need to Know</a></h3>
+                            <div class="newsletter-meta">
+                                <span class="topic">Cybersecurity</span>
+                                <span class="issue">Issue #40</span>
+                            </div>
+                            <p>An overview of emerging cybersecurity threats and practical steps to protect your digital assets.</p>
+                            <a href="#" class="btn btn-outline">Read Newsletter</a>
+                        </div>
+                    </article>
+
+                    <article class="newsletter-item">
+                        <div class="newsletter-date">
+                            <span class="month">MAY</span>
+                            <span class="day">01</span>
+                            <span class="year">2023</span>
+                        </div>
+                        <div class="newsletter-content">
+                            <h3><a href="#">Data Visualization Best Practices</a></h3>
+                            <div class="newsletter-meta">
+                                <span class="topic">Data Science</span>
+                                <span class="issue">Issue #39</span>
+                            </div>
+                            <p>How to create effective data visualizations that communicate insights clearly and accurately.</p>
+                            <a href="#" class="btn btn-outline">Read Newsletter</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="pagination">
+                    <a href="#" class="page-prev" aria-label="Previous page"><i class="fas fa-chevron-left"></i></a>
+                    <a href="#" class="page-number active">1</a>
+                    <a href="#" class="page-number">2</a>
+                    <a href="#" class="page-number">3</a>
+                    <span class="page-dots">...</span>
+                    <a href="#" class="page-number">12</a>
+                    <a href="#" class="page-next" aria-label="Next page"><i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>TechInsight</h2>
+                    <p>Stay ahead with the latest in technology</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Categories</h3>
+                        <ul>
+                            <li><a href="#">Technology</a></li>
+                            <li><a href="#">AI & ML</a></li>
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">Cybersecurity</a></li>
+                            <li><a href="#">Data Science</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">Tutorials</a></li>
+                            <li><a href="#">Guides</a></li>
+                            <li><a href="newsletter.html">Newsletter</a></li>
+                            <li><a href="#">Podcast</a></li>
+                            <li><a href="#">Community</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 TechInsight Blog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
