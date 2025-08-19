@@ -716,8 +716,8 @@ asyncio.run(main())`
           setElapsedTime(elapsed);
           
           // Calculate current WPM and accuracy
-          const currentWpm = calculateWPM(currentInput, elapsed);
-          const currentAccuracy = calculateAccuracy(currentInput, currentExercise.codeSnippet.substring(0, currentInput.length));
+          const currentWpm = calculateWPM(currentInput.length, elapsed / 60);
+          const currentAccuracy = calculateAccuracy(currentExercise.codeSnippet.substring(0, currentInput.length), currentInput);
           
           setWpm(currentWpm);
           setAccuracy(currentAccuracy);

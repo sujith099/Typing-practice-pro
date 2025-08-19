@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { Eye, EyeOff, Github, Google } from 'lucide-react';
+import { Eye, EyeOff, Github, Globe } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
@@ -204,7 +204,7 @@ export default function SignupPage() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <Button variant="outline" type="button">
-                <Google className="mr-2 h-4 w-4" />
+                <Globe className="mr-2 h-4 w-4" />
                 Google
               </Button>
               <Button variant="outline" type="button">

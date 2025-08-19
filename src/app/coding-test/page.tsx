@@ -348,7 +348,8 @@ export default function CodingTestPage() {
         const elapsedMinutes = (Date.now() - startTime) / 60000;
         if (elapsedMinutes > 0) {
           setWpm(calculateWPM(correctChars, elapsedMinutes));
-          setAccuracy(calculateAccuracy(correctChars, correctChars + incorrectChars));
+          const totalChars = correctChars + incorrectChars;
+          setAccuracy(totalChars > 0 ? (correctChars / totalChars) * 100 : 0);
         }
       }, 1000);
       
@@ -395,7 +396,8 @@ export default function CodingTestPage() {
     const elapsedMinutes = (Date.now() - startTime) / 60000;
     if (elapsedMinutes > 0) {
       setWpm(calculateWPM(correctChars, elapsedMinutes));
-      setAccuracy(calculateAccuracy(correctChars, correctChars + incorrectChars));
+      const totalChars = correctChars + incorrectChars;
+        setAccuracy(totalChars > 0 ? (correctChars / totalChars) * 100 : 0);
     }
   };
   

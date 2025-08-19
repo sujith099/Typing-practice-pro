@@ -792,7 +792,7 @@ export default function LessonPage() {
         content: '1234 5678 90!@ #$%^ &*() _+[] {}|\:" <>?'
       },
     },
-    intermediate: {
+    advanced: {
       'business-communication': {
         id: 'business-communication',
         title: 'Business Communication',
@@ -826,7 +826,7 @@ export default function LessonPage() {
         content: 'the and to of in is it you that was for on are with as his they be at one have this from or had by hot but some what there we can out other were all your when up use word how said an each she which do their time if will way about many then them would write like so these her long make thing see him two has look more day could go come did my sound no most number who over know water than call first people may down side been now find any new work part take get place made live where after back little only round man year came show every good me give our under name very through just form much great think say help low line before turn cause same mean differ move right boy old too does tell sentence set three want air well also play small end put home read hand port large spell add even land here must big high such follow act why ask men change went light kind off need house picture try us again animal point mother world near build self earth father head stand own page should country found answer school grow study still learn plant cover food sun four thought let keep eye never last door between city tree cross since hard start might story saw far sea draw left late run don\'t while press close night real life few stop open seem together next white children begin got walk example ease paper'
       },
     },
-    advanced: {
+    expert: {
       'code-snippets': {
         id: 'code-snippets',
         title: 'Code Snippets',
@@ -911,8 +911,8 @@ export default function LessonPage() {
           setElapsedTime(elapsed);
           
           // Calculate current WPM and accuracy
-          const currentWpm = calculateWPM(currentInput, elapsed);
-          const currentAccuracy = calculateAccuracy(currentInput, currentLesson.content.substring(0, currentInput.length));
+          const currentWpm = calculateWPM(currentInput.length, elapsed / 60);
+          const currentAccuracy = calculateAccuracy(currentLesson.content.substring(0, currentInput.length), currentInput);
           
           setWpm(currentWpm);
           setAccuracy(currentAccuracy);
